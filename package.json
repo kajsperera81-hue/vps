@@ -1,12 +1,13 @@
 {
   "name": "vps",
   "version": "1.0.0",
-  "description": "",
+  "description": "VPS server with Telegram bot",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "bot": "node bot.js"
+    "bot": "node bot.js",
+    "bot:dev": "nodemon bot.js"
   },
   "keywords": [],
   "author": "",
